@@ -10,7 +10,8 @@
 // import FetchExample from "./fetchExample";
 // import ToggleComponent from "./ToggleComponent";
 // import Timer from "./Timer";
-import Form from "./form";
+// import Form from "./form";
+import CountZeros from "./countZeros";
 
 const App = () => {
   // const [text, setText] = useState("");
@@ -43,7 +44,9 @@ const App = () => {
     //Start and Stop Timer
     // <Timer />
     //Create a form value as name and radio button and onsubmit list should be shown below
-    <Form />
+    // <Form />
+    //Count zeros in a number
+    <CountZeros />
   );
 };
 
